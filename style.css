@@ -5,6 +5,7 @@
     --Desaturated-Dark-Blue: hsl(214, 17%, 51%);
     --Grayish-Blue: hsl(212, 23%, 69%);
     --Light-Grayish-Blue: hsl(210, 46%, 95%);
+    --shadow: 214 17% 51%;
 }
 
 *{
@@ -27,6 +28,7 @@ body{
     background-color: white;
     position: relative;
     border-radius: 0.875rem;
+    box-shadow: 10px 10px 15px hsl(var(--shadow)/0.1);
 }
 
 .drawer{
@@ -108,7 +110,6 @@ body{
     position: absolute;
     bottom: 5.75rem;
     right: -4.5rem;
-    
 }
 
 .sh{
