@@ -90,6 +90,7 @@ body{
 
 .share:hover{
     background-color: var(--Desaturated-Dark-Blue);
+    cursor: pointer;
 }
 
 .share:hover path{
@@ -142,6 +143,7 @@ body{
 .mobile-box .share{
     margin-left: auto;
     background-color: var(--Desaturated-Dark-Blue);
+    cursor: pointer;
 }
 
 .mobile-box .share path{
